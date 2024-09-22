@@ -6,15 +6,53 @@
     font-family: 'work sans' sans-serif;
 }
 
+/* header related css */
+header{
+    background-color: rgb(240, 221, 197);
+    padding: 50px 140px;
+}
+
 /* Nav related css */
 nav{
     display: flex;
-}
-nav, ul, ol{
-    list-style: none;
-    display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+.nav-title{
+    font-size: 3rem;
+    font-weight: 700px;
+    font-family: 'work sans' sans-serif;
+    color: black;
+
+}
+
+nav > ul{
+   display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500px;
+    font-size: 1rem;
+}
+nav li a{
     text-decoration: none;
-    margin-left: 20px;
-    gap: 10px;
+    color: #4242;
+}
+
+/* banner related css */
+.banner-content{
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.banner-title{
+    font-size: 4rem;
+    font-weight: 700px;
+    color: rgba(0, 0, 0, 0.952);
+}
+
+.banner-description{
+    color: #080505;
 }

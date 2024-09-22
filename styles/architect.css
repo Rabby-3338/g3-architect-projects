@@ -1,0 +1,20 @@
+@import url('https://fonts.google.com/share?selection.family=Work+Sans:ital,wght@0,100..900;1,100..900');
+
+*{
+    font-family: 'lato' sans-serif;
+    font-family: 'open sans' sans-serif;
+    font-family: 'work sans' sans-serif;
+}
+
+/* Nav related css */
+nav{
+    display: flex;
+}
+nav, ul, ol{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    margin-left: 20px;
+    gap: 10px;
+}
